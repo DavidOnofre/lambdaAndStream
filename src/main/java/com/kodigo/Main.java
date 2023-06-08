@@ -3,7 +3,6 @@ package com.kodigo;
 import com.kodigo.model.Person;
 import com.kodigo.model.Product;
 
-import java.awt.color.ProfileDataException;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
@@ -13,18 +12,6 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    private static Person person1;
-    private static Person person2;
-    private static Person person3;
-    private static Person person4;
-    private static Person person5;
-
-    private static Product product1;
-    private static Product product2;
-    private static Product product3;
-    private static Product product4;
-    private static Product product5;
-    private static Product product6;
 
     private static List<Person> persons;
 
@@ -281,6 +268,18 @@ public class Main {
     }
 
     private static void initValues() {
+        Person person1;
+        Person person2;
+        Person person3;
+        Person person4;
+        Person person5;
+
+        Product product1;
+        Product product2;
+        Product product3;
+        Product product4;
+        Product product5;
+        Product product6;
 
         person1 = Person
                 .builder()
